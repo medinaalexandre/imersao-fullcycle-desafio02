@@ -13,7 +13,7 @@ Sua aplicação deverá expor os endpoints:
 - [x] GET /events - Listar todos os eventos
 - [x] GET /events/:eventId - Listar os dados de um evento
 - [x] GET /events/:eventId/spots - Listar os lugares de um evento
-- [ ] POST /event/:eventId/reserve - Reservar um lugar
+- [x] POST /event/:eventId/reserve - Reservar um lugar
   - Dados:
 spots: array com spots, exemplo [A1, B2];
 Não poderá reservar o mesmo spot duas vezes, deverá retornar um erro 400
